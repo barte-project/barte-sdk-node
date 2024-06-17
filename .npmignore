@@ -1,0 +1,35 @@
+# Diretórios de build e dependências
+node_modules
+dist
+
+# Diretórios de configuração e metadados do sistema
+coverage
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do projeto
+.env
+*.log
+*.tsbuildinfo
+
+# Arquivos de exemplo ou documentação que você não quer incluir
+examples/
+docs/
+
+# Arquivos específicos do Git
+.git
+.gitignore
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+
+# Arquivos de teste
+test/
+tests/
+__tests__/
+
+# Outros arquivos que não são necessários no pacote publicado
+*.md
+*.zip
+*.tar.gz
